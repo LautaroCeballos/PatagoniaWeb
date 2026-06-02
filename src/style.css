@@ -1207,7 +1207,19 @@ footer {
   transition: color var(--transition);
 }
 .mobile-nav a:hover { color: var(--teal); }
-.mobile-nav .btn-primary { margin-top: 20px; justify-content: center; }
+.mobile-nav .btn-primary {
+  margin-top: 20px;
+  justify-content: center;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 16px 28px;
+  border-bottom: none;
+  color: var(--navy);
+}
+.mobile-nav .btn-primary:hover {
+  color: var(--navy);
+}
 .mobile-overlay {
   position: fixed;
   inset: 0;
