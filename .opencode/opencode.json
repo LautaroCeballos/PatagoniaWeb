@@ -1,0 +1,52 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+        "context7": {
+            "type": "remote",
+            "url": "https://mcp.context7.com/mcp",
+            "headers": {
+                "CONTEXT7_API_KEY": "ctx7sk-bc6f8142-0918-4ad9-b359-555b04f7d93a"
+            },
+            "enabled": true
+        },
+        "chrome-devtools": {
+            "type": "local",
+            "command": [
+                "npx",
+                "-y",
+                "chrome-devtools-mcp@latest"
+            ]
+        },
+        "TestSprite": {
+            "type": "local",
+            "command": [
+                "npx",
+                "@testsprite/testsprite-mcp@latest"
+            ],
+            "environment": {
+                "API_KEY": "sk-user-E5asyvAPccgM-xx7hoZ73s0tdX5SnO22rZtaRbrnW7dAkU793VbVAiHmm15yK_xzBvIAF-t4cjkNDi8XaE8P1HeYxEZh0P_VYypVx_DhRGi8h0lBw_HiCq9XUUpVkymTtyg"
+            }
+        },
+        "mercadopago-mcp-server": {
+            "type": "remote",
+            "url": "https://mcp.mercadopago.com/mcp",
+            "headers": {
+                "Authorization": "Bearer APP_USR-7315042596722802-052523-52a847870cb38a4d96e493a42ee9cced-3425674989"
+            },
+            "enabled": true
+        },
+        "appwrite": {
+            "type": "local",
+            "command": [
+                "uvx",
+                "mcp-server-appwrite"
+            ],
+            "enabled": true,
+            "environment": {
+                "APPWRITE_PROJECT_ID": "67523c4f0004f3543dfd",
+                "APPWRITE_API_KEY": "standard_2e7971949671c930a0570db80b1ce327f4c61a6a98d0c90afa549076dceac8c0e5f78cdec82f47c09380b63c534e874f107b59018a554dcc9dc91b69d943ee0dc0b1ed99b455ec6f573da52d2dd360ea11e12fc966565bad4de23e078083030be8b51aec9facb8c3f878f9cde4b0f81bd0b9e5d8513c0e92644082eb21cf1653",
+                "APPWRITE_ENDPOINT": "https://fra.cloud.appwrite.io/v1"
+            }
+        }
+    }
+}

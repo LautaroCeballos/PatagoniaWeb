@@ -1,0 +1,54 @@
+{
+  "cloudinaryBase": "https://res.cloudinary.com/dlf0evwxx/image/upload/q_auto/f_auto",
+
+  "heroImages": [
+    "v1780412689/Portada-Nahuel-Huapi-1536x1024_pcygz4.jpg",
+    "v1780412688/Cerro-Campanario-Bariloche-Patagonia-Andina-5-1_mah2ug.jpg",
+    "v1780412688/Cerro-Campanario-Bariloche-Patagonia-Andina-3-web-1_kovmhu.jpg",
+    "v1780412687/Bariloche_czaxao.jpg",
+    "v1780412687/Cerro-Campanario-Bariloche-Patagonia-Andina-1-833x474_cs9rv1.jpg",
+    "v1780412687/Bariloche-postada-833x471_dsksia.jpg"
+  ],
+
+  "proyectos": [
+    {
+      "image": "https://res.cloudinary.com/dlf0evwxx/image/upload/c_crop,g_north_west,h_770,w_1270,y_104/Argebtubi_del_sur_ecg7h2.png",
+      "tag": "Rediseño",
+      "title": "Argentino del Sur",
+      "description": "Rediseño integral con enfoque en experiencia de lujo y optimización de conversiones móviles.",
+      "url": "https://lautaroceballos.github.io/argentino-del-sur/"
+    },
+    {
+      "image": "https://res.cloudinary.com/dlf0evwxx/image/upload/c_crop,g_north_west,h_691,w_1026,x_451,y_129/Brava_hlnscm.png",
+      "tag": "Booking",
+      "title": "Brava-Square",
+      "description": "Lofts y suites con piscina en Búzios. Sistema de reservas directas multi-idioma con WhatsApp integrado y galería interactiva.",
+      "url": "https://lautaroceballos.github.io/Brava-Square/"
+    },
+    {
+      "image": "https://res.cloudinary.com/dlf0evwxx/image/upload/c_crop,g_north_west,h_717,w_970,y_102/Refugio_Natural_oaox5f.png",
+      "tag": "SEO",
+      "title": "Refugio Natural",
+      "description": "Hotel boutique de montaña con estrategia SEO para captación internacional. Diseño premium, reservas directas y contenido orgánico optimizado.",
+      "url": "https://lautaroceballos.github.io/RefugioNatural/"
+    }
+  ],
+
+  "testimonialAvatars": [
+    "v1780416397/avatar1_cqgb88.jpg",
+    "v1780416401/avatar2_npkmjo.jpg",
+    "v1780416400/avatar3_aslsdd.jpg"
+  ],
+
+  "aboutPhoto": "v1780412055/foto_lauti.jpg",
+
+  "cssBackgrounds": {
+    "primary": "https://images.unsplash.com/photo-1543429257-3eb0b9c2f5b4?w=1400&q=80",
+    "overlay": "https://images.unsplash.com/photo-1531761535209-83b8d6a14e99?w=1400&q=80"
+  },
+
+  "whatsapp": {
+    "number": "5493517878228",
+    "url": "https://wa.me/5493517878228"
+  }
+}
